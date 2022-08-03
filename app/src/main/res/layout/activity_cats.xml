@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatsActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CATS "
+        android:layout_marginTop="12dp"
+        android:textSize="32dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/design_default_color_error"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:id="@+id/lbl_id"
+        android:layout_marginTop="12dp"
+        android:textSize="22dp"
+        android:gravity="left"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Created: "
+        android:id="@+id/lbl_created"
+        android:layout_marginTop="12dp"
+        android:textSize="22dp"
+        android:gravity="left"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TAGS: "
+        android:id="@+id/lbl_tags"
+        android:layout_marginTop="12dp"
+        android:textSize="22dp"
+        android:gravity="left"
+        android:textStyle="bold"/>
+
+</LinearLayout>
